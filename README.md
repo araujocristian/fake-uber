@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
   <img alt="Fastfeet" title="Fastfeet" src="https://newsroomapi.uber.com/wp-content/uploads/2018/05/Logotype_digital_black_large@1x.png" width="300px" />
-</h1>
+</p>
 
 <h2 align="center">
   Fake Uber
