@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
-import { View, PixelRatio } from 'react-native';
-import MapView from 'react-native-maps';
+import { View } from 'react-native';
+import MapView, { Marker } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import Search from '../Search';
 import Directions from '../Directions';
 
 import { getPixelSize } from '../../utils';
+import markerImagme from '../../assets/marker.png';
+
+import { LocationBox, LocationText } from './styles';
 
 export default class Map extends Component {
   state = {
@@ -61,20 +64,31 @@ export default class Map extends Component {
           ref={el => (this.mapView = el)}
         >
           {destination && (
-            <Directions
-              origin={region}
-              destination={destination}
-              onReady={result => {
-                this.mapView.fitToCoordinates(result.coordinates, {
-                  edgePadding: {
-                    right: getPixelSize(50),
-                    left: getPixelSize(50),
-                    top: getPixelSize(50),
-                    bottom: getPixelSize(50),
-                  },
-                });
-              }}
-            />
+            <>
+              <Directions
+                origin={region}
+                destination={destination}
+                onReady={result => {
+                  this.mapView.fitToCoordinates(result.coordinates, {
+                    edgePadding: {
+                      right: getPixelSize(50),
+                      left: getPixelSize(50),
+                      top: getPixelSize(150),
+                      bottom: getPixelSize(50),
+                    },
+                  });
+                }}
+              />
+              <Marker
+                coordinate={destination}
+                anchor={{ x: 0, y: 0 }}
+                image={markerImagme}
+              >
+                <LocationBox>
+                  <LocationText>{destination.title}</LocationText>
+                </LocationBox>
+              </Marker>
+            </>
           )}
         </MapView>
 
