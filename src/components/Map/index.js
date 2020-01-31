@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import { View } from 'react-native';
+import { View, PixelRatio } from 'react-native';
 import MapView from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import Search from '../Search';
 import Directions from '../Directions';
 
-// import { Container } from './styles';
+import { getPixelSize } from '../../utils';
+
 export default class Map extends Component {
   state = {
     region: null,
@@ -56,12 +57,23 @@ export default class Map extends Component {
           style={{ flex: 1 }}
           region={region}
           showsUserLocation
-          loadingEnabled>
+          loadingEnabled
+          ref={el => (this.mapView = el)}
+        >
           {destination && (
             <Directions
               origin={region}
               destination={destination}
-              onReady={() => {}}
+              onReady={result => {
+                this.mapView.fitToCoordinates(result.coordinates, {
+                  edgePadding: {
+                    right: getPixelSize(50),
+                    left: getPixelSize(50),
+                    top: getPixelSize(50),
+                    bottom: getPixelSize(50),
+                  },
+                });
+              }}
             />
           )}
         </MapView>
