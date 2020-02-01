@@ -26,6 +26,7 @@
   <a href="#ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#imagens-do-projeto">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-executar-o-projeto">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contribuição">Contribuição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -47,8 +48,8 @@
 ## Imagens do projeto
 
 <p align="center">
-  <img height="320" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif1.gif"/>
-  <img height="320" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif2.gif"/>
+  <img height="420" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif1.gif"/>
+  <img height="420" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif2.gif"/>
 </p>
 
 ## Como executar o projeto
