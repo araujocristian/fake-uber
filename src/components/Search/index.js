@@ -17,7 +17,6 @@ export default class Search extends Component {
       <GooglePlacesAutocomplete
         placeholder="Para onde?"
         placeholderTextColor="#333"
-        minLength={2}
         onPress={onLocationSelected}
         query={{
           key: 'AIzaSyD_VTxMb5jE4MbgCejBawD-QiZj-AwdiBQ',
