@@ -4,6 +4,7 @@ import { View, Image } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import Geocoder from 'react-native-geocoding';
+import { GOOGLE_APIKEY } from 'react-native-dotenv';
 
 import Search from '../Search';
 import Directions from '../Directions';
@@ -22,7 +23,7 @@ import {
   Back,
 } from './styles';
 
-Geocoder.init('AIzaSyD_VTxMb5jE4MbgCejBawD-QiZj-AwdiBQ', { language: 'pt' });
+Geocoder.init(GOOGLE_APIKEY, { language: 'pt' });
 
 export default class Map extends Component {
   state = {
