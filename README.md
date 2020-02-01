@@ -47,7 +47,8 @@
 ## Imagens do projeto
 
 <p align="center">
-  <img src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif1.gif"/><img src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif2.gif"/>
+  <img height="320" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif1.gif"/>
+  <img height="320" src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif2.gif"/>
 </p>
 
 ## Como executar o projeto
