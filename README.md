@@ -2,11 +2,11 @@
   <img alt="Fastfeet" title="Fastfeet" src="https://newsroomapi.uber.com/wp-content/uploads/2018/05/Logotype_digital_black_large@1x.png" width="300px" />
 </p>
 
-<h2 align="center">
+<h1 align="center">
   Fake Uber
-</h2>
+</h1>
 
-<p>Esse projeto é um clone da antiga interface do aplicativo de compartilhamento de carona Uber.</p>
+<p align="center">Nesse projeto foi desenvolvido do zero um app em React Native recriando a interface do passageiro no Uber.</p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/araujocristian/fake-uber?color=%2304D361">
@@ -24,11 +24,12 @@
 
 <p align="center">
   <a href="#ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-executar-o-projeto">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#imagens-do-projeto">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-executar-o-projeto">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
-## Ferramentas
+### Ferramentas
 
 <p>Este projeto foi desenvolvido utilizando das seguintes tecnologias:</p>
 
@@ -38,11 +39,11 @@
 - [Styled Components](https://styled-components.com/)
 - [VSCode](https://code.visualstudio.com/)
 
-## Imagens do projeto
+### Imagens do projeto
 
-## Como executar o projeto
+### Como executar o projeto
 
 
-## :memo: Licença
+### :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
