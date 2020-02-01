@@ -29,21 +29,40 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-### Ferramentas
+## Ferramentas
 
 <p>Este projeto foi desenvolvido utilizando das seguintes tecnologias:</p>
 
 - [React Native](https://facebook.github.io/react-native/)
+- [Styled Components](https://styled-components.com/)
+- [React Native GeoCoding](https://github.com/marlove/react-native-geocoding)
+- [React Native Google Places Autocomplete](https://github.com/FaridSafi/react-native-google-places-autocomplete)
+- [React Native Maps](https://github.com/react-native-community/react-native-maps)
+- [React Native Maps Directions](https://github.com/bramus/react-native-maps-directions)
+- [React Native DotEnv](https://github.com/zetachang/react-native-dotenv)
 - [ESlint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [Styled Components](https://styled-components.com/)
 - [VSCode](https://code.visualstudio.com/)
 
-### Imagens do projeto
+## Imagens do projeto
 
-### Como executar o projeto
+<p align="center">
+  <img src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif1.gif"/><img src="https://github.com/araujocristian/fake-uber/raw/master/images/fake-uber-gif2.gif"/>
+</p>
 
+## Como executar o projeto
 
-### :memo: Licença
+## Contribuição
+
+Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
+5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
+6. Abra uma Pull Request
+
+## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
